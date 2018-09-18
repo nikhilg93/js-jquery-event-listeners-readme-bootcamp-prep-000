@@ -18,8 +18,7 @@ function pressIt(){
       alert("G is pressed")
       return;
     }
-    alert("G is not pressed")
-    return;
+    
   });
 }
 
