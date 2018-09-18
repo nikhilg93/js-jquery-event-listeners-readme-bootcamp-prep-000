@@ -18,7 +18,8 @@ function pressIt(){
       window.alert("G is pressed")
       return;
     }
-    alert("")
+    alert("G is not pressed")
+    return;
   });
 }
 
