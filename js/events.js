@@ -17,7 +17,12 @@ function pressIt(){
     if(key.which == 71){
       window.alert("G is pressed")
     }
-    
+  });
+}
+
+function submitIt(){
+  $('form').on('submit', function(){
+    alert("Y")
   });
 }
 $(document).ready(function(){
