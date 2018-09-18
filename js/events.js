@@ -1,9 +1,12 @@
 //define functions here
 function getIt(){
-  const click = $('p').on()
+  $('p').on('click', function() {
+    alert("Hey!")
+  });
 }
 
-$(document).ready(function(getIt){
-  
+$(document).ready(function(){
+
+// call functions here
 
 });
